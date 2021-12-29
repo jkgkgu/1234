@@ -15,7 +15,7 @@
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-git clone https://github.com/ghjkdtw/openwrt-passwall package/lean/openwrt-passwall
+git clone https://github.com/jkgkgu/openwrt-passwall package/lean/openwrt-passwall
 git clone https://github.com/jerrykuku/luci-app-vssr package/lean/luci-app-vssr
 git clone https://github.com/jerrykuku/lua-maxminddb package/lean/lua-maxminddb
 git clone https://github.com/vernesong/OpenClash package/lean/OpenClash
